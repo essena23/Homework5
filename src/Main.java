@@ -30,7 +30,7 @@ public class Main {
         if (clientDeviceYear >= 2015 && clientOS2 == 1) {
             System.out.println("Установите версию приложения для Android по ссылке");
         } else if (clientOS2 > 1 || clientOS2 < 0) {
-            System.out.println("Такого приложения у нас нет");
+            System.out.println("Такого приложения у нас нет!");
         }
 
         // task 3
